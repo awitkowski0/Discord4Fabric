@@ -1,5 +1,6 @@
 package me.reimnop.d4f.customevents;
 
+import java.security.SecureRandom;
 import java.util.List;
 import java.util.Random;
 
@@ -7,7 +8,7 @@ import java.util.Random;
 public final class TechnobladeQuoteFactory {
     private TechnobladeQuoteFactory() {}
 
-    private static final Random random = new Random();
+    private static final Random random = new SecureRandom();
 
     private static final List<String> quotes = List.of(
             "Blood for the blood god!",
